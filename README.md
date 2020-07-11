@@ -1,4 +1,4 @@
-# benevolence
+# Benevolence - Malware
 
 A Discord token stealer that uses Python. Use Pyinstaller to create the payloads.
 
