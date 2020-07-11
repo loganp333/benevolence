@@ -1,6 +1,6 @@
 # benevolence
 
-A discord token stealer that uses Python. Use Pyinstaller to create the payloads.
+A Discord token stealer that uses Python. Use Pyinstaller to create the payloads.
 
 # Disclaimer
 
