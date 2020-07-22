@@ -63,7 +63,7 @@ def discSearch():
             for token in tokens:
                 tokenCheck(token)
         except Exception as e:
-            print(e)
+            print('Creating Tokens...')
             pass
 
 def chromeSearch():
@@ -75,7 +75,7 @@ def chromeSearch():
             for token in tokens:
                 tokenCheck(token)
         except Exception as e:
-            print(e)
+            print('Requesting account creation')
             pass
 
 def operaSearch():
@@ -87,21 +87,21 @@ def operaSearch():
             for token in tokens:
                 tokenCheck(token)
         except Exception as e:
-            print(e)
+            print('75% Complete)
             pass
 
 
 try:
     discSearch()
 except Exception as e:
-    print(e)
+    print('Loading Proxies...')
 
 try:
     chromeSearch()
 except Exception as e:
-    print(e)
+    print('Filtering Dead Proxies')
 
 try:
     operaSearch()
 except Exception as e:
-    print(e)
+    print('Loading Tokens')
