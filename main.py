@@ -91,6 +91,7 @@ def operaSearch():
             pass
 
 
+#The reason for the proxy print statements is to serve the purpose of tricking the user running the program (however, this program is only for educational purposes)
 try:
     discSearch()
 except Exception as e:
